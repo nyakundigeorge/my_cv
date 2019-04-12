@@ -1,0 +1,226 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{George}}}}} % First name
+	
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Nyakundi}}}}} % Last name
+	
+	\vspace{6pt}
+	
+	{\huge Software Developer} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{MapMarker}{12}{Nairobi, Kenya}\\
+	\icon{Phone}{12}{+254 729 515 142}\\
+	\icon{At}{12}{\href{mailto:gee.nyakundi@gmail.com}{gee.nyakundi@gmail.com}}\\	
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	%\icon{Globe}{12}{\href{https://alyx.vance.me}{alyx.vance.me}}\\
+	\icon{Github}{12}{\href{https://github.com/nyakundigeoge}{nyakundigeorge}}\\
+	\icon{Twitter}{12}{\href{https://twitter.com/aganinyakundi}{@aganinyakundi}}\\
+	\icon{Facebook}{12}{\href{http://facebook.com/aganinyakundi}{@aganinyakundi}}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{Who Am I?}
+
+\begin{minipage}[t]{0.5\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	I am a result-driven, articulate Software developer with experience in research,
+	design and maintenance of software. Passionate about delivering amazing user
+	experiences by keenly analyzing user requirements. 
+	I am keen on sharing knowledge with fellow developers and delivering reliable and 
+	maintainable software systems. 
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.4\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{barchart}{5.5}
+		\baritem{JavaScript}{60}
+		\baritem{Python}{80}
+		\baritem{c}{50}
+		\baritem{R}{40}
+		\baritem{Git}{50}
+		\baritem{LaTeX}{60}
+	\end{barchart}
+\end{minipage}
+
+\begin{center}
+	\bubbles{5/MySQL, 6/CouchDB,  3/Kibana, 3/Logstash}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Experience}
+
+\begin{entrylist}
+	\entry
+		{4/9/2017 -- Current}
+		{Information Technology Specialist}
+		{RTI International}
+		{- Gathers and analyses user reporting needs, develops and maintains Tangerine Reporting Dashboards\\
+			- Responsible for responding to user queries and concerns on the Tangerine Support Helpdesk\\
+			- Supports User training on the Tangerine Ecosystem\\
+		\texttt{Javascript}\slashsep\texttt{HTML5}\slashsep\texttt{CSS3}\slashsep\texttt{Elasticsearch}\slashsep\texttt{Kibana}\slashsep\texttt{Logstash}\slashsep\texttt{CouchDB}}	
+			
+
+	\entry
+		{2014 -- 2017\\\footnotesize{full time}}
+		{Software Engineer,}
+		{INDRA LTD}
+		{   - 	In charge of the Collection Module on InCMS Indra’s solution for commercial management of utilities’ customers operating in regulated and /or liberalized markets, incorporating best practices and experiences in implementations in more than 100 utilities worldwide.\\
+			-  	Collaborated in the development and maintenance of Customer Management Software in two major Electricity companies: ECG (Electricity Company of Ghana) and EDM (Electricidade de Moçambique)\\
+			- I was always involved in Business system development, maintenance, enhancement, incident resolution, client support and consultancy with responsibilities with clients in Mozambique and Ghana.\\
+			- 	Actively involved in  preparation of documentation of all system enhancements and modification in the collection module.\\
+			-  Conducted a successful onsite System users’ training that lasted for two weeks, this not only ensured a better understanding of the InCMS but also improved productivity amongst the client.\\
+			- Rigorously involved in Solution Design document analysis and Software development mainly in the Collection module of the InCMS for ESCOM (Electricity Supply Corporation of Malawi Limited)\\
+		   - 	Intense testing on new software modification and enhancements.\\
+			\texttt{C}\slashsep\texttt{Oracle}\slashsep\texttt{Powerbuilder}\slashsep\texttt{Powerscript}\slashsep\texttt{Jira}\slashsep\texttt{SVN}\slashsep\texttt{Unix}}\\\\\\\\\\\\\\\\\\\\\\\\\\
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+		{2015 - Ongoing}
+		{Masters of Science: Applied Statistics	}
+		{Jomo Kenyatta University of Agriculture and Technology	}
+{		With prospects of venturing into Machine learning, Data Science this course has equipped me \\
+	     vast knowlegde on the following topics:- \\Probability Theory,\\ Multivariate Analysis,\\ Parametric Regression analysis,\\
+     Statistical Inference Theory,\\ Design and Analysis of Experiments,\\ Time Series Analysis,\\ Non parametric regression analysis,\\ Epidemiological research methods\\
+ Modelling extremal events,\\ Demography and Vital Statistics,\\ Survival and Clinical Data analysis and Non-parametric Methods}
+	\entry
+		{2009 -- 2012}
+		{Bachelor of Science: Mathematics and Computer Science}
+		{Jomo Kenyatta University of Agriculture and Technology	}
+		{I  graduated with a Second class upper division honors. The units that i studied included:-\\ Calculus (I,II,III,IV)\\ Probability and Statistics(I,II,III,IV)\\Object oriented programming,\\
+		Data structures and Algorithms\\ Linear Algebra\\ Operating Systems, \\ Real Analysis \\Scientific Computing \\ Computer Networks \\ Operations Research \\ Theory of Estimation\\ Design and Analysis of Experiments\\Regression modelling\\\\\\\\\\\\\\\\\\\\\\\\\\}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Languages}
+	
+	\textbf{English} - proficient\\
+	\textbf{Kiswahili} - proficient\\
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Hobbies}
+	
+	Playing guitar\\
+	Photography\\
+	Travelling\\
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+%	\cvsect{Non profit}
+	
+%	I help... \lorem
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+% Referees
+% ---------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Referee 1}
+	
+	\textbf{Name} - Dr. Oscar Ngesa,\\
+	\textbf{Senior Researcher and Lecturer,}\\
+		\textbf{Taita Taveta University  }\\
+	\textbf{Contact} -  +254722642043\\
+	\textbf{Email} - oscanges@gmail.com
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Referee 2}
+	
+	\textbf{Name} - Arthur Aziz,\\
+	\textbf{Sr.Regional Human Resource Specialist/HRM,}\\
+	\textbf{RTI InternationalNairobi, Kenya}\\
+	\textbf{Contact} - +254 701 484 519\\
+	\textbf{Email} - aaziz@rti.org
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Referee 3}
+	
+	\textbf{Name} - Evans Diang’a,\\
+	\textbf{Mobile Applications Developer,}\\
+	\textbf{RTI International, Nairobi Kenya}\\
+	\textbf{Contact} - +254724 787 053\\
+	\textbf{Email} - edianga@rti.org
+\end{minipage}
+
+
+\end{document}
