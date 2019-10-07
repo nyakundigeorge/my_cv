@@ -1,4 +1,9 @@
-# My Proffessional CV
+# My Professional CV
+ I am a result-driven, articulate Software developer with experience in research,
+	design and maintenance of software.  
+ Passionate about delivering amazing user experiences by keenly analyzing user requirements.   
+	I am keen on sharing knowledge with fellow developers and delivering reliable and 
+	maintainable software systems.
 
 # Credits
 
