@@ -3,13 +3,13 @@
 # Credits
 
  Authors:
- Jan Vorisek (jan@vorisek.me) . 
- Based on a template by Jan Küster (info@jankuester.com) . 
- Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com) . 
+ Jan Vorisek (jan@vorisek.me 
+ Based on a template by Jan K üster (info@jankuester.com)  
+ Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)  
  
- Developer CV . 
- LaTeX Template . 
- Version 1.0 (28/1/19) . 
+ Developer CV   
+ LaTeX Template   
+ Version 1.0 (28/1/19)  
 
  This template originates from:  
  [LaTex Templates](http://www.LaTeXTemplates.com)
