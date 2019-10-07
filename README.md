@@ -15,7 +15,7 @@
  http://www.LaTeXTemplates.com . 
  
  ## What you'll need to run this project   
- - MacTex 
- - TexStudio
+ - (http://www.tug.org/mactex/)[MacTex] / (https://miktex.org/)[MikTex] - Any LaTex Distribution 
+ - (https://www.texstudio.org/)[TexStudio] - Any LaTex Compatible Editor 
 
  
