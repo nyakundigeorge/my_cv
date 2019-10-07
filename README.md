@@ -2,8 +2,8 @@
 
 # Credits
 
- Authors:
- Jan Vorisek (jan@vorisek.me 
+ Authors:  
+ Jan Vorisek (jan@vorisek.me   
  Based on a template by Jan K üster (info@jankuester.com)  
  Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)  
  
