@@ -12,10 +12,14 @@
  Version 1.0 (28/1/19) . 
 
  This template originates from:  
- http://www.LaTeXTemplates.com . 
+ [LaTex Templates](http://www.LaTeXTemplates.com)
  
  ## What you'll need to run this project   
- - (http://www.tug.org/mactex/)[MacTex] / (https://miktex.org/)[MikTex] - Any LaTex Distribution 
- - (https://www.texstudio.org/)[TexStudio] - Any LaTex Compatible Editor 
+ - [MacTex](http://www.tug.org/mactex/) / [MikTex](https://miktex.org/) - Any LaTex Distribution 
+ - [TexStudio](https://www.texstudio.org/) - Any LaTex Compatible Editor 
+ 
+ 
+ ## License:
+ The MIT License (see included LICENSE file)
 
  
